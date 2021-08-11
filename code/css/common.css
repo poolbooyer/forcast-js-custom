@@ -1,0 +1,26 @@
+/* reset styles */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+/* layout common parts */
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+  position: absolute;
+  bottom:0;
+}
+footer dl{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
